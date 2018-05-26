@@ -97,6 +97,18 @@ header {
   padding: 80px 0;
   background-image: url("../images/top/cover.jpg");
   background-size: cover; }
+  
+@media (min-width: 550px) {
+#cover_area {
+    text-align: left;
+    height: 420px;
+    padding: 0;}
+}
+@media (min-width: 550px) {
+#cover_area img {
+    margin-top: 180px;
+    margin-left: 70px;}
+}
   @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     #cover_area {
       background-image: url("../images/top/cover@2x.jpg"); } }
